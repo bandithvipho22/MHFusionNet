@@ -28,19 +28,22 @@ We evaluate our model on the Human3.6M dataset. We use the same setup as the D3D
 
 Place all dataset files in the ./dataset directory of this project.
 
+```bash
 MHFusionNet/
 ├── dataset/
 │   ├── data_2d_h36m_gt.npz
 │   ├── data_2d_h36m_cpn_ft_h36m_dbb.npz
 │   └── data_3d_h36m.npz
-
+```
 ## Model Checkpoint
 
 The Fusion Network relies on multiple hypotheses as input. These hypotheses are generated using a pre-trained model (e.g., D3DP). To evaluate the Fusion Network, Place the Fusion Network checkpoint in the ./checkpoint/ directory. Ensure the multiple hypotheses data is also available (generated from D3DP).
 
+```bash
 MHFusionNet/
 ├── checkpoint/
 │   └── fusion_model_best.pth
+```
 
 ## Evaluating Our Model
 
