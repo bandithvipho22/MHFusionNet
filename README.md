@@ -22,7 +22,7 @@ pip install torch matplotlib==3.1.0 einops timm tensorboard
 ```
 ## Dataset: Human3.6M
 
-We evaluate our model on the Human3.6M dataset. We use the same setup as the D3DP model. Please download the preprocessed data from the D3DP GitHub repository.
+We evaluate our model on the Human3.6M dataset. We use the same setup as the [D3DP](https://github.com/paTRICK-swk/D3DP) model. Please download the preprocessed data from the D3DP GitHub repository.
 
 ### Placement:
 
