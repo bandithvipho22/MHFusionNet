@@ -2,6 +2,9 @@
 
 MHFusionNet is a 3D human pose estimation that utilizes a fusion-based approach. It aggregates multiple hypotheses generated from 2D-to-3D models and refines the final 3D pose through a dedicated Fusion Network.
 
+<img width="1275" height="421" alt="image" src="https://github.com/user-attachments/assets/0823a4f1-ca78-40a6-8c5b-9d71df7bae00" />
+
+
 ---
 
 ## 📦 Dependencies
